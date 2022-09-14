@@ -28,7 +28,9 @@ const StatScreen = () => {
   return (
     <View style={{alignItems:'center', justifyContent:'center', flex:1, paddingTop:35}}>
             <LinearGradient colors={['#8C366c', '#6e64e7']} style={styles.background} />
+    <Text style={{color:'white', fontWeight:'bold',fontSize:24}}>Statistiques des revenus</Text>
     <Stats data={showChart}/>
+    <Text style={{color:'white', fontWeight:'bold',fontSize:24}}>Statistiques des dépenses</Text>
     <Stats data={data[contextValue.index].expenses} />
     </View>
   )

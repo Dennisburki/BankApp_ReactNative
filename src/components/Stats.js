@@ -29,9 +29,9 @@ const Stats = ({data}) => {
 
         return (
             <ScrollView>
-                <Text style={styles.text}>
+                {/* <Text style={styles.text}>
                     Statisques de votre compte
-                </Text>
+                </Text> */}
                 <LineChart
                     data={barData}
                     width={Dimensions.get('window').width} // from react-native
